@@ -5,7 +5,11 @@
 ## and we need to verify it further before retrieving the cached inverse.
 
 ## This function uses the template provided by the instructors to create a function
-## for storing the matrix value and its inverse.
+## for storing the matrix value and its inverse. The functions are -
+## 1. Setting the matrix
+## 2. Get the value of the matrix
+## 3. Set the inverse of the matrix
+## 4. Get the saved inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
